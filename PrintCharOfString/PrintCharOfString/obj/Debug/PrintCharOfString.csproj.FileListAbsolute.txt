@@ -1,0 +1,7 @@
+C:\Users\kallu\Desktop\programming learning\dotnet learning\PrintCharOfString\PrintCharOfString\bin\Debug\PrintCharOfString.exe.config
+C:\Users\kallu\Desktop\programming learning\dotnet learning\PrintCharOfString\PrintCharOfString\bin\Debug\PrintCharOfString.exe
+C:\Users\kallu\Desktop\programming learning\dotnet learning\PrintCharOfString\PrintCharOfString\bin\Debug\PrintCharOfString.pdb
+C:\Users\kallu\Desktop\programming learning\dotnet learning\PrintCharOfString\PrintCharOfString\obj\Debug\PrintCharOfString.csprojResolveAssemblyReference.cache
+C:\Users\kallu\Desktop\programming learning\dotnet learning\PrintCharOfString\PrintCharOfString\obj\Debug\PrintCharOfString.csproj.CoreCompileInputs.cache
+C:\Users\kallu\Desktop\programming learning\dotnet learning\PrintCharOfString\PrintCharOfString\obj\Debug\PrintCharOfString.exe
+C:\Users\kallu\Desktop\programming learning\dotnet learning\PrintCharOfString\PrintCharOfString\obj\Debug\PrintCharOfString.pdb
