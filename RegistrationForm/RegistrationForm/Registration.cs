@@ -26,8 +26,10 @@ namespace RegistrationForm
                 MessageBox.Show("enter user ID");
             else if (string.IsNullOrEmpty(enteredpassword))
                 MessageBox.Show("enter password");
-            else if (!Regex.IsMatch(enteredpassword, "[a-zA-Z0-9]"))
-                MessageBox.Show("enter valid password");
+            else if (!(Regex.IsMatch(enteredpassword, pattern: @"^[a-zA-Z0-9]*$")))
+            {
+                MessageBox.Show(text: "enter valid password which contains 'a-z','A-Z','0-9'");
+            }
             else if (string.IsNullOrEmpty(conformpassword))
                 MessageBox.Show("enter conform passowrd");
             else if (!conformpassword.Equals(enteredpassword))
@@ -38,9 +40,9 @@ namespace RegistrationForm
             {
                 XmlWriterSettings settings = new XmlWriterSettings
                 {
-                    Indent = false,
-                    OmitXmlDeclaration = true,
-                    NewLineOnAttributes = false
+                    Indent = true,
+                    OmitXmlDeclaration = false,
+                    NewLineOnAttributes = true,
                 };
                 try
                 {

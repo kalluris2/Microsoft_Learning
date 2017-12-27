@@ -8,3 +8,13 @@ C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\Re
 C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.exe
 C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.pdb
 C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csprojResolveAssemblyReference.cache
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.exe.config
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.exe
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.pdb
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csprojResolveAssemblyReference.cache
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.Properties.Resources.resources
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.Registration.resources
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.GenerateResource.Cache
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.CoreCompileInputs.cache
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.exe
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.pdb
