@@ -1,0 +1,30 @@
+C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.exe.config
+C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.exe
+C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.pdb
+C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.Properties.Resources.resources
+C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.Registration.resources
+C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.GenerateResource.Cache
+C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.CoreCompileInputs.cache
+C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.exe
+C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.pdb
+C:\Users\kallu\Desktop\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csprojResolveAssemblyReference.cache
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.exe.config
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.exe
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.pdb
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csprojResolveAssemblyReference.cache
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.Properties.Resources.resources
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.Registration.resources
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.GenerateResource.Cache
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.CoreCompileInputs.cache
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.exe
+E:\programming learning\dotnet learning\winforms programm\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.pdb
+C:\Users\kallu\Desktop\Microsoft_Learning\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.exe.config
+C:\Users\kallu\Desktop\Microsoft_Learning\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.exe
+C:\Users\kallu\Desktop\Microsoft_Learning\RegistrationForm\RegistrationForm\bin\Debug\RegistrationForm.pdb
+C:\Users\kallu\Desktop\Microsoft_Learning\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csprojResolveAssemblyReference.cache
+C:\Users\kallu\Desktop\Microsoft_Learning\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.Properties.Resources.resources
+C:\Users\kallu\Desktop\Microsoft_Learning\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.Registration.resources
+C:\Users\kallu\Desktop\Microsoft_Learning\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.GenerateResource.Cache
+C:\Users\kallu\Desktop\Microsoft_Learning\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.CoreCompileInputs.cache
+C:\Users\kallu\Desktop\Microsoft_Learning\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.exe
+C:\Users\kallu\Desktop\Microsoft_Learning\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.pdb
