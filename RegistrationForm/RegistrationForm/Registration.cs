@@ -15,26 +15,29 @@ namespace RegistrationForm
         private void submitButton_Click(object sender, EventArgs e)
         {
             string userName = (enterUserNameTextBox.Text);
-            string entereduserid = (enterUserIdTextBox.Text);
-            string enteredpassword = (enterPasswordTextBox.Text);
-            string conformpassword = (conformPasswordTextBox.Text);
-            string enteredrole = (enterRoleTextBox.Text);
+            string userId = (enterUserIdTextBox.Text);
+            string password = (enterPasswordTextBox.Text);
+            string conformPassword = (conformPasswordTextBox.Text);
+            string role = (enterRoleTextBox.Text);
 
             if (string.IsNullOrEmpty(userName))
                 MessageBox.Show("enter user name");
-            else if (string.IsNullOrEmpty(entereduserid))
+            else if (string.IsNullOrEmpty(userId))
                 MessageBox.Show("enter user ID");
-            else if (string.IsNullOrEmpty(enteredpassword))
+            else if (string.IsNullOrEmpty(password))
                 MessageBox.Show("enter password");
-            else if (!(Regex.IsMatch(enteredpassword, pattern: @"^[a-zA-Z0-9]*$")))
+            else if (!(Regex.IsMatch(password, pattern: @"^[a-zA-Z0-9]*$")))
             {
                 MessageBox.Show(text: "enter valid password which contains 'a-z','A-Z','0-9'");
             }
-            else if (string.IsNullOrEmpty(conformpassword))
+
+            else if (password.Length > 10)
+                MessageBox.Show("password length must be lessthan 10 characters");
+            else if (string.IsNullOrEmpty(conformPassword))
                 MessageBox.Show("enter conform passowrd");
-            else if (!conformpassword.Equals(enteredpassword))
+            else if (!conformPassword.Equals(password))
                 MessageBox.Show("conform password did not match with password");
-            else if (string.IsNullOrEmpty(enteredrole))
+            else if (string.IsNullOrEmpty(role))
                 MessageBox.Show("enter role");
             else
             {
@@ -55,16 +58,16 @@ namespace RegistrationForm
 
                     //to display inside angular brackets use writeattributestring
                     //xmlwriter.writeattributestring("value")
-                    xmlWriter.WriteString(entereduserid);
+                    xmlWriter.WriteString(userId);
                     xmlWriter.WriteEndElement();
                     xmlWriter.WriteStartElement("Name");
                     xmlWriter.WriteString(userName);
                     xmlWriter.WriteEndElement();
                     xmlWriter.WriteStartElement("password");
-                    xmlWriter.WriteString(enteredpassword);
+                    xmlWriter.WriteString(password);
                     xmlWriter.WriteEndElement();
                     xmlWriter.WriteStartElement("Role");
-                    xmlWriter.WriteString(enteredrole);
+                    xmlWriter.WriteString(role);
                     xmlWriter.WriteEndElement();
 
                     xmlWriter.WriteEndDocument();
