@@ -1,0 +1,6 @@
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\User\bin\Debug\User.dll
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\User\bin\Debug\User.pdb
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\User\obj\Debug\User.csprojResolveAssemblyReference.cache
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\User\obj\Debug\User.csproj.CoreCompileInputs.cache
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\User\obj\Debug\User.dll
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\User\obj\Debug\User.pdb

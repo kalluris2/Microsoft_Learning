@@ -1,0 +1,8 @@
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\DatabaseOperations\bin\Debug\DatabaseOperations.dll
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\DatabaseOperations\bin\Debug\DatabaseOperations.pdb
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\DatabaseOperations\bin\Debug\User.dll
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\DatabaseOperations\bin\Debug\User.pdb
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\DatabaseOperations\obj\Debug\DatabaseOperations.csprojResolveAssemblyReference.cache
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\DatabaseOperations\obj\Debug\DatabaseOperations.csproj.CoreCompileInputs.cache
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\DatabaseOperations\obj\Debug\DatabaseOperations.dll
+C:\Users\kallu\Desktop\Microsoft_Learning\DatabaseRegistration\DatabaseOperations\obj\Debug\DatabaseOperations.pdb
