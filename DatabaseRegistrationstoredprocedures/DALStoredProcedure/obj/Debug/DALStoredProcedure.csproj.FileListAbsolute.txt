@@ -1,0 +1,8 @@
+E:\programming learning\dotnet learning\DatabaseRegistrationwithreferenceclass\DALStoredProcedure\bin\Debug\DALStoredProcedure.dll
+E:\programming learning\dotnet learning\DatabaseRegistrationwithreferenceclass\DALStoredProcedure\bin\Debug\DALStoredProcedure.pdb
+E:\programming learning\dotnet learning\DatabaseRegistrationwithreferenceclass\DALStoredProcedure\bin\Debug\User.dll
+E:\programming learning\dotnet learning\DatabaseRegistrationwithreferenceclass\DALStoredProcedure\bin\Debug\User.pdb
+E:\programming learning\dotnet learning\DatabaseRegistrationwithreferenceclass\DALStoredProcedure\obj\Debug\DALStoredProcedure.csprojResolveAssemblyReference.cache
+E:\programming learning\dotnet learning\DatabaseRegistrationwithreferenceclass\DALStoredProcedure\obj\Debug\DALStoredProcedure.csproj.CoreCompileInputs.cache
+E:\programming learning\dotnet learning\DatabaseRegistrationwithreferenceclass\DALStoredProcedure\obj\Debug\DALStoredProcedure.dll
+E:\programming learning\dotnet learning\DatabaseRegistrationwithreferenceclass\DALStoredProcedure\obj\Debug\DALStoredProcedure.pdb
