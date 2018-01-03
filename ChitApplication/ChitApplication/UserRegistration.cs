@@ -1,8 +1,10 @@
 ﻿using DataBaseConnection;
+using PaymentInfo;
 using RegistrationInputs;
 using System;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace ChitApplication
 {
@@ -89,8 +91,16 @@ namespace ChitApplication
                 Operations Insert = new Operations();
                 Insert.InsertRegistration(input);
                 MessageBox.Show("data entered into table");
+                
             }
 
+        }
+
+        private void nextButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PaymentDetails form2 = new PaymentDetails();
+            form2.ShowDialog();
         }
     }
 }

@@ -45,6 +45,7 @@
             this.oneLkRadioButton = new System.Windows.Forms.RadioButton();
             this.fiftyKRadioButton = new System.Windows.Forms.RadioButton();
             this.tenKRadioButton = new System.Windows.Forms.RadioButton();
+            this.nextButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // registrationNumberlabel
@@ -200,11 +201,22 @@
             this.tenKRadioButton.Text = "10000 policy";
             this.tenKRadioButton.UseVisualStyleBackColor = true;
             // 
+            // nextButton
+            // 
+            this.nextButton.Location = new System.Drawing.Point(639, 325);
+            this.nextButton.Name = "nextButton";
+            this.nextButton.Size = new System.Drawing.Size(75, 23);
+            this.nextButton.TabIndex = 18;
+            this.nextButton.Text = "Next";
+            this.nextButton.UseVisualStyleBackColor = true;
+            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
+            // 
             // UserRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(836, 472);
+            this.Controls.Add(this.nextButton);
             this.Controls.Add(this.tenKRadioButton);
             this.Controls.Add(this.fiftyKRadioButton);
             this.Controls.Add(this.oneLkRadioButton);
@@ -248,6 +260,7 @@
         private System.Windows.Forms.RadioButton oneLkRadioButton;
         private System.Windows.Forms.RadioButton fiftyKRadioButton;
         private System.Windows.Forms.RadioButton tenKRadioButton;
+        private System.Windows.Forms.Button nextButton;
     }
 }
 

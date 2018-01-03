@@ -84,6 +84,10 @@
       <Project>{386D92DE-7128-4C8A-837C-30033E20A0EE}</Project>
       <Name>ChitFundDataBaseOperations</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PaymentInfo\PaymentInfo.csproj">
+      <Project>{CFE13090-8CB7-48A6-BCDA-F1ADC3A4B696}</Project>
+      <Name>PaymentInfo</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RegistrationInputs\RegistrationInputs.csproj">
       <Project>{16DE0614-EFDB-49D9-A4DF-ADA43D0AA827}</Project>
       <Name>RegistrationInputs</Name>

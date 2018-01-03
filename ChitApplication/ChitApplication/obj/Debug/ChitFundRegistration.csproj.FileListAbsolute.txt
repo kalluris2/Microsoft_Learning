@@ -12,3 +12,6 @@ E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitAp
 E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitApplication\bin\Debug\RegistrationInputs.pdb
 E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.exe
 E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.pdb
+E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitApplication\bin\Debug\PaymentInfo.exe
+E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitApplication\bin\Debug\PaymentInfo.pdb
+E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitApplication\bin\Debug\PaymentInfo.exe.config
