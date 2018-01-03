@@ -1,0 +1,6 @@
+E:\programming learning\dotnet learning\winforms programm\ChitApplication\RegistrationInputs\bin\Debug\RegistrationInputs.dll
+E:\programming learning\dotnet learning\winforms programm\ChitApplication\RegistrationInputs\bin\Debug\RegistrationInputs.pdb
+E:\programming learning\dotnet learning\winforms programm\ChitApplication\RegistrationInputs\obj\Debug\RegistrationInputs.csprojResolveAssemblyReference.cache
+E:\programming learning\dotnet learning\winforms programm\ChitApplication\RegistrationInputs\obj\Debug\RegistrationInputs.csproj.CoreCompileInputs.cache
+E:\programming learning\dotnet learning\winforms programm\ChitApplication\RegistrationInputs\obj\Debug\RegistrationInputs.dll
+E:\programming learning\dotnet learning\winforms programm\ChitApplication\RegistrationInputs\obj\Debug\RegistrationInputs.pdb
