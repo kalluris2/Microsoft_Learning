@@ -45,7 +45,8 @@
             this.oneLkRadioButton = new System.Windows.Forms.RadioButton();
             this.fiftyKRadioButton = new System.Windows.Forms.RadioButton();
             this.tenKRadioButton = new System.Windows.Forms.RadioButton();
-            this.nextButton = new System.Windows.Forms.Button();
+            this.chitPaymentButton = new System.Windows.Forms.Button();
+            this.exitApplicationButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // registrationNumberlabel
@@ -139,7 +140,7 @@
             // 
             // registerButton
             // 
-            this.registerButton.Location = new System.Drawing.Point(360, 326);
+            this.registerButton.Location = new System.Drawing.Point(237, 325);
             this.registerButton.Name = "registerButton";
             this.registerButton.Size = new System.Drawing.Size(75, 23);
             this.registerButton.TabIndex = 12;
@@ -149,7 +150,7 @@
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(498, 326);
+            this.clearButton.Location = new System.Drawing.Point(340, 325);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(75, 23);
             this.clearButton.TabIndex = 13;
@@ -201,22 +202,33 @@
             this.tenKRadioButton.Text = "10000 policy";
             this.tenKRadioButton.UseVisualStyleBackColor = true;
             // 
-            // nextButton
+            // chitPaymentButton
             // 
-            this.nextButton.Location = new System.Drawing.Point(639, 325);
-            this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(75, 23);
-            this.nextButton.TabIndex = 18;
-            this.nextButton.Text = "Next";
-            this.nextButton.UseVisualStyleBackColor = true;
-            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
+            this.chitPaymentButton.Location = new System.Drawing.Point(543, 325);
+            this.chitPaymentButton.Name = "chitPaymentButton";
+            this.chitPaymentButton.Size = new System.Drawing.Size(131, 23);
+            this.chitPaymentButton.TabIndex = 18;
+            this.chitPaymentButton.Text = "Chit Payment Details";
+            this.chitPaymentButton.UseVisualStyleBackColor = true;
+            this.chitPaymentButton.Click += new System.EventHandler(this.nextButton_Click);
+            // 
+            // exitApplicationButton
+            // 
+            this.exitApplicationButton.Location = new System.Drawing.Point(454, 325);
+            this.exitApplicationButton.Name = "exitApplicationButton";
+            this.exitApplicationButton.Size = new System.Drawing.Size(75, 23);
+            this.exitApplicationButton.TabIndex = 19;
+            this.exitApplicationButton.Text = "Exit";
+            this.exitApplicationButton.UseVisualStyleBackColor = true;
+            this.exitApplicationButton.Click += new System.EventHandler(this.exitApplicationButton_Click);
             // 
             // UserRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(836, 472);
-            this.Controls.Add(this.nextButton);
+            this.Controls.Add(this.exitApplicationButton);
+            this.Controls.Add(this.chitPaymentButton);
             this.Controls.Add(this.tenKRadioButton);
             this.Controls.Add(this.fiftyKRadioButton);
             this.Controls.Add(this.oneLkRadioButton);
@@ -235,7 +247,7 @@
             this.Controls.Add(this.registrationNumberTextBox);
             this.Controls.Add(this.registrationNumberlabel);
             this.Name = "UserRegistration";
-            this.Text = "Form1";
+            this.Text = "User Registration";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,7 +272,8 @@
         private System.Windows.Forms.RadioButton oneLkRadioButton;
         private System.Windows.Forms.RadioButton fiftyKRadioButton;
         private System.Windows.Forms.RadioButton tenKRadioButton;
-        private System.Windows.Forms.Button nextButton;
+        private System.Windows.Forms.Button chitPaymentButton;
+        private System.Windows.Forms.Button exitApplicationButton;
     }
 }
 

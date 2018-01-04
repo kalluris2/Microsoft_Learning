@@ -23,15 +23,15 @@ namespace DataBaseConnection
                 connection.Open();
                 SqlCommand cmd = new SqlCommand("spInsertPeopleData", connection);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.Add("@registrationno", SqlDbType.Int).Value= inputValues.RegistrationNumber;
-                cmd.Parameters.Add("@firstname", SqlDbType.VarChar,30).Value = inputValues.FirstName;
-                cmd.Parameters.Add("@secondname", SqlDbType.VarChar,30).Value = inputValues.SecondName;
-                cmd.Parameters.Add("@phno", SqlDbType.VarChar,10).Value = inputValues.PhoneNumber;
-                cmd.Parameters.Add("@address", SqlDbType.VarChar,50).Value = inputValues.Address;
-                cmd.Parameters.Add("@chitid", SqlDbType.VarChar,10).Value = inputValues.ChitId;
+                cmd.Parameters.Add("@registrationno", SqlDbType.Int).Value = inputValues.RegistrationNumber;
+                cmd.Parameters.Add("@firstname", SqlDbType.VarChar, 30).Value = inputValues.FirstName;
+                cmd.Parameters.Add("@secondname", SqlDbType.VarChar, 30).Value = inputValues.SecondName;
+                cmd.Parameters.Add("@phno", SqlDbType.VarChar, 10).Value = inputValues.PhoneNumber;
+                cmd.Parameters.Add("@address", SqlDbType.VarChar, 50).Value = inputValues.Address;
+                cmd.Parameters.Add("@chitid", SqlDbType.VarChar, 10).Value = inputValues.ChitId;
                 cmd.ExecuteNonQuery();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -57,7 +57,7 @@ namespace DataBaseConnection
                 cmd.Parameters.Add("@paidby", SqlDbType.VarChar, 30).Value = inputvalues.FirstName;
                 cmd.ExecuteNonQuery();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -66,6 +66,32 @@ namespace DataBaseConnection
                 connection.Close();
             }
 
+        }
+        public DataSet ViewData(string value)
+        {
+            try
+            {
+                connection = DatabaseConnect();
+                connection.Open();
+                string query = "select R.FirstName,R.SecondName,P.ChitId,P.DatePaid,P.AmtPaid from dbo.Registration As R join dbo.PaymentDetails As P " +
+                    "on R.RegistrationNo = P.Registrationno where P.ChitId='" + value + "'";
+                SqlCommand cmd = new SqlCommand(query, connection);
+
+                DataSet Data = new DataSet();
+                SqlDataAdapter Adapter = new SqlDataAdapter(cmd);
+                Adapter.Fill(Data);
+                var result= Data;
+                return result;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
     }
 }
