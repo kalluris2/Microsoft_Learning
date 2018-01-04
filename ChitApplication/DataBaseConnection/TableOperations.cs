@@ -1,5 +1,6 @@
 ﻿using RegistrationInputs;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
@@ -67,21 +68,42 @@ namespace DataBaseConnection
             }
 
         }
-        public DataSet ViewData(string value)
+        public List<Registration> ViewData(string value)
         {
             try
             {
                 connection = DatabaseConnect();
                 connection.Open();
-                string query = "select R.FirstName,R.SecondName,P.ChitId,P.DatePaid,P.AmtPaid from dbo.Registration As R join dbo.PaymentDetails As P " +
-                    "on R.RegistrationNo = P.Registrationno where P.ChitId='" + value + "'";
-                SqlCommand cmd = new SqlCommand(query, connection);
+                //string query = "select R.FirstName,R.SecondName,P.ChitId,P.DatePaid,P.AmtPaid from dbo.Registration As R join dbo.PaymentDetails As P " +
+                  //  "on R.RegistrationNo = P.Registrationno where P.ChitId='" + value + "'";
+               // string query = "select R.FirstName,R.SecondName,P.ChitId,P.DatePaid,P.AmtPaid from dbo.Registration As R join dbo.PaymentDetails As P " +
+                 //  "on R.RegistrationNo = P.Registrationno where P.ChitId='@chitid'";
+                   
+               // SqlCommand cmd = new SqlCommand(query, connection);
+                SqlCommand cmd = new SqlCommand("spPersonDetails", connection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@chitid", value);
 
-                DataSet Data = new DataSet();
-                SqlDataAdapter Adapter = new SqlDataAdapter(cmd);
-                Adapter.Fill(Data);
-                var result= Data;
-                return result;
+                //DataSet Data = new DataSet();
+                //SqlDataAdapter Adapter = new SqlDataAdapter(cmd);
+                //Adapter.Fill(Data);
+                SqlDataReader dataReader = cmd.ExecuteReader();
+               
+                List<Registration> _chitregistrationsList = new List<Registration>();
+                while(dataReader.Read())
+                {
+                    Registration registrantionInstance = new Registration();
+                    registrantionInstance.FirstName = dataReader[0].ToString();
+                    registrantionInstance.LastName = dataReader[1].ToString();
+                    registrantionInstance.ChittiId = dataReader[2].ToString();
+                    registrantionInstance.DatePaid = dataReader[3].ToString();
+                    registrantionInstance.PaidAmount = dataReader[4].ToString();
+                    _chitregistrationsList.Add(registrantionInstance);
+                }
+                
+                return _chitregistrationsList;
+                //var result= Data;
+                //return result;
 
             }
             catch (Exception ex)

@@ -85,7 +85,7 @@ namespace ChitFundRegistration
              value= chitIdComboBox.SelectedItem.ToString();
             Operations viewdata = new Operations();
             var Data = viewdata.ViewData(value);
-            dataGridView.DataSource = Data.Tables[0];
+            dataGridView.DataSource = Data;
         }
 
         
