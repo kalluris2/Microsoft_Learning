@@ -1,0 +1,10 @@
+c:\users\kallu\source\repos\EmailApplication\EmailApplication\bin\Debug\EmailApplication.exe.config
+c:\users\kallu\source\repos\EmailApplication\EmailApplication\bin\Debug\EmailApplication.exe
+c:\users\kallu\source\repos\EmailApplication\EmailApplication\bin\Debug\EmailApplication.pdb
+c:\users\kallu\source\repos\EmailApplication\EmailApplication\obj\Debug\EmailApplication.csprojResolveAssemblyReference.cache
+c:\users\kallu\source\repos\EmailApplication\EmailApplication\obj\Debug\EmailApplication.email.resources
+c:\users\kallu\source\repos\EmailApplication\EmailApplication\obj\Debug\EmailApplication.Properties.Resources.resources
+c:\users\kallu\source\repos\EmailApplication\EmailApplication\obj\Debug\EmailApplication.csproj.GenerateResource.Cache
+c:\users\kallu\source\repos\EmailApplication\EmailApplication\obj\Debug\EmailApplication.csproj.CoreCompileInputs.cache
+c:\users\kallu\source\repos\EmailApplication\EmailApplication\obj\Debug\EmailApplication.exe
+c:\users\kallu\source\repos\EmailApplication\EmailApplication\obj\Debug\EmailApplication.pdb
