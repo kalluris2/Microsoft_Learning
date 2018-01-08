@@ -1,0 +1,7 @@
+F:\programming learning\dotnet learning\Reference\Reference\bin\Debug\Reference.exe.config
+F:\programming learning\dotnet learning\Reference\Reference\bin\Debug\Reference.exe
+F:\programming learning\dotnet learning\Reference\Reference\bin\Debug\Reference.pdb
+F:\programming learning\dotnet learning\Reference\Reference\obj\Debug\Reference.csprojResolveAssemblyReference.cache
+F:\programming learning\dotnet learning\Reference\Reference\obj\Debug\Reference.csproj.CoreCompileInputs.cache
+F:\programming learning\dotnet learning\Reference\Reference\obj\Debug\Reference.exe
+F:\programming learning\dotnet learning\Reference\Reference\obj\Debug\Reference.pdb
