@@ -1,0 +1,9 @@
+C:\Users\kallu\source\repos\logging\logging\bin\Debug\logging.exe.config
+C:\Users\kallu\source\repos\logging\logging\bin\Debug\logging.exe
+C:\Users\kallu\source\repos\logging\logging\bin\Debug\logging.pdb
+C:\Users\kallu\source\repos\logging\logging\obj\Debug\logging.csprojResolveAssemblyReference.cache
+C:\Users\kallu\source\repos\logging\logging\obj\Debug\logging.csproj.CoreCompileInputs.cache
+C:\Users\kallu\source\repos\logging\logging\obj\Debug\logging.exe
+C:\Users\kallu\source\repos\logging\logging\obj\Debug\logging.pdb
+C:\Users\kallu\source\repos\logging\logging\bin\Debug\log4net.dll
+C:\Users\kallu\source\repos\logging\logging\bin\Debug\log4net.xml
