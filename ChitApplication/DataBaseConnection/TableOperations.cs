@@ -151,6 +151,10 @@ namespace DataBaseConnection
                     registrantionInstance.ChittiId = dataReader[2].ToString();
                     registrantionInstance.DatePaid = dataReader[3].ToString();
                     registrantionInstance.PaidAmount = dataReader[4].ToString();
+                    registrantionInstance.TotalEmi = dataReader[5].ToString();
+                    registrantionInstance.MonthlyEmiPayments = dataReader[6].ToString();
+
+
                     _chitregistrationsList.Add(registrantionInstance);
                 }
                 

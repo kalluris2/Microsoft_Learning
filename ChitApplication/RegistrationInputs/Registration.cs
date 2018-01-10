@@ -11,5 +11,9 @@
         public string DatePaid { get; set; }
 
         public string ChittiId { get; set; }
+
+        public string TotalEmi { get; set; }
+
+        public string MonthlyEmiPayments { get; set; }
     }
 }

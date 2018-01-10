@@ -110,9 +110,9 @@
             // 
             // loginExitButton
             // 
-            this.loginExitButton.Location = new System.Drawing.Point(640, 379);
+            this.loginExitButton.Location = new System.Drawing.Point(734, 274);
             this.loginExitButton.Name = "loginExitButton";
-            this.loginExitButton.Size = new System.Drawing.Size(75, 23);
+            this.loginExitButton.Size = new System.Drawing.Size(75, 31);
             this.loginExitButton.TabIndex = 11;
             this.loginExitButton.Text = "Exit";
             this.loginExitButton.UseVisualStyleBackColor = true;
@@ -120,9 +120,9 @@
             // 
             // clearbutton
             // 
-            this.clearbutton.Location = new System.Drawing.Point(640, 274);
+            this.clearbutton.Location = new System.Drawing.Point(564, 274);
             this.clearbutton.Name = "clearbutton";
-            this.clearbutton.Size = new System.Drawing.Size(75, 23);
+            this.clearbutton.Size = new System.Drawing.Size(75, 31);
             this.clearbutton.TabIndex = 10;
             this.clearbutton.Text = "Clear";
             this.clearbutton.UseVisualStyleBackColor = true;
@@ -168,15 +168,16 @@
             // 
             // passwordtextBox
             // 
-            this.passwordtextBox.Location = new System.Drawing.Point(514, 161);
+            this.passwordtextBox.Location = new System.Drawing.Point(394, 141);
             this.passwordtextBox.Name = "passwordtextBox";
+            this.passwordtextBox.PasswordChar = '*';
             this.passwordtextBox.Size = new System.Drawing.Size(254, 22);
             this.passwordtextBox.TabIndex = 5;
             // 
             // passwordlable
             // 
             this.passwordlable.AutoSize = true;
-            this.passwordlable.Location = new System.Drawing.Point(409, 161);
+            this.passwordlable.Location = new System.Drawing.Point(230, 146);
             this.passwordlable.Name = "passwordlable";
             this.passwordlable.Size = new System.Drawing.Size(73, 17);
             this.passwordlable.TabIndex = 4;
@@ -184,7 +185,7 @@
             // 
             // IDtextBox
             // 
-            this.IDtextBox.Location = new System.Drawing.Point(514, 109);
+            this.IDtextBox.Location = new System.Drawing.Point(394, 79);
             this.IDtextBox.Name = "IDtextBox";
             this.IDtextBox.Size = new System.Drawing.Size(254, 22);
             this.IDtextBox.TabIndex = 3;
@@ -192,7 +193,7 @@
             // employeeIDlabel
             // 
             this.employeeIDlabel.AutoSize = true;
-            this.employeeIDlabel.Location = new System.Drawing.Point(406, 112);
+            this.employeeIDlabel.Location = new System.Drawing.Point(230, 84);
             this.employeeIDlabel.Name = "employeeIDlabel";
             this.employeeIDlabel.Size = new System.Drawing.Size(91, 17);
             this.employeeIDlabel.TabIndex = 2;
@@ -293,7 +294,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(598, 437);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 37);
             this.button1.TabIndex = 14;
             this.button1.Text = "Exit";
             this.button1.UseVisualStyleBackColor = true;
@@ -303,7 +304,7 @@
             // 
             this.employeeClearButton.Location = new System.Drawing.Point(426, 437);
             this.employeeClearButton.Name = "employeeClearButton";
-            this.employeeClearButton.Size = new System.Drawing.Size(75, 23);
+            this.employeeClearButton.Size = new System.Drawing.Size(84, 37);
             this.employeeClearButton.TabIndex = 13;
             this.employeeClearButton.Text = "Clear";
             this.employeeClearButton.UseVisualStyleBackColor = true;
@@ -311,9 +312,9 @@
             // 
             // employeeSubmitButton
             // 
-            this.employeeSubmitButton.Location = new System.Drawing.Point(259, 438);
+            this.employeeSubmitButton.Location = new System.Drawing.Point(267, 437);
             this.employeeSubmitButton.Name = "employeeSubmitButton";
-            this.employeeSubmitButton.Size = new System.Drawing.Size(75, 23);
+            this.employeeSubmitButton.Size = new System.Drawing.Size(90, 37);
             this.employeeSubmitButton.TabIndex = 12;
             this.employeeSubmitButton.Text = "Submit";
             this.employeeSubmitButton.UseVisualStyleBackColor = true;
@@ -450,6 +451,7 @@
             // 
             this.customerPasswordTextBox.Location = new System.Drawing.Point(287, 123);
             this.customerPasswordTextBox.Name = "customerPasswordTextBox";
+            this.customerPasswordTextBox.PasswordChar = '*';
             this.customerPasswordTextBox.Size = new System.Drawing.Size(278, 22);
             this.customerPasswordTextBox.TabIndex = 6;
             // 
