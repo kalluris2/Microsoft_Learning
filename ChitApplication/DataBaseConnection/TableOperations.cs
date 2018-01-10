@@ -13,7 +13,7 @@ namespace DataBaseConnection
 
         public SqlConnection DatabaseConnect()
         {
-            string Name = @"Data Source=DESKTOP-1FN2CN9;Initial Catalog=ChitFund;Integrated Security=true";
+            string Name = @"Data Source=DESKTOP-BA6B0TS;Initial Catalog=ChitFund;Integrated Security=true";
             return new SqlConnection(Name);
         }
         public void InsertRegistration(Person inputValues)
@@ -41,6 +41,57 @@ namespace DataBaseConnection
                 connection.Close();
             }
         }
+        public void InsertEmployee(Person Values)
+        {
+            try
+            {
+                connection = DatabaseConnect();
+                connection.Open();
+                SqlCommand cmd = new SqlCommand("spInsertEmployeeData", connection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@employeeid", SqlDbType.Int ).Value = Values.EmployeeId;
+                cmd.Parameters.Add("@firstname", SqlDbType.VarChar,30).Value = Values.FirstName;
+                cmd.Parameters.Add("@lastname", SqlDbType.VarChar,30).Value = Values.SecondName;
+                cmd.Parameters.Add("@jobid", SqlDbType.Int).Value = Values.JobId;
+                cmd.Parameters.Add("@password", SqlDbType.VarChar,10).Value = Values.Password;
+                cmd.ExecuteNonQuery();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+        public bool EmployeeLogin(int id, string password)
+        {
+            try
+            {
+                connection = DatabaseConnect();
+                connection.Open();
+                string command = "select count(Password) from Employees where EmployeeId= '" +id +"' and Password= '" +password+"'";
+                SqlDataAdapter data = new SqlDataAdapter(command, connection);
+                DataTable table = new DataTable();
+                data.Fill(table);
+                if (table.Rows[0][0].ToString() == "1")
+                    return true;
+                else
+                   return false;
+                    
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return false;
+        }
+
         public void InsertPayment(Person inputvalues)
         {
             try
@@ -68,6 +119,8 @@ namespace DataBaseConnection
             }
 
         }
+        
+
         public List<Registration> ViewData(string value)
         {
             try
@@ -114,6 +167,32 @@ namespace DataBaseConnection
             {
                 connection.Close();
             }
+        }
+        public bool CustomerLogin(int id, string password)
+        {
+            try
+            {
+                connection = DatabaseConnect();
+                connection.Open();
+                string command = "select count(Password) from Registration where RegistrationNo= '" + id + "' and Password= '" + password + "'";
+                SqlDataAdapter data = new SqlDataAdapter(command, connection);
+                DataTable table = new DataTable();
+                data.Fill(table);
+                if (table.Rows[0][0].ToString() == "1")
+                    return true;
+                else
+                    return false;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return false;
         }
     }
 }

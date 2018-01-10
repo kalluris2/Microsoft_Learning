@@ -12,6 +12,11 @@
         public string AmountReceivedBy { get; set; }
         public string PaymentId { get; set; }
         public int AmountPaid { get; set; }
+        public string Password { get; set; }
+        public int EmployeeId { get; set; }
+        public int JobId { get; set; }
+
+
 
 
     }

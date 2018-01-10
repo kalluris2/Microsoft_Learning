@@ -6,3 +6,11 @@ E:\programming learning\dotnet learning\winforms programm\ChitApplication\DataBa
 E:\programming learning\dotnet learning\winforms programm\ChitApplication\DataBaseConnection\bin\Debug\RegistrationInputs.pdb
 E:\programming learning\dotnet learning\winforms programm\ChitApplication\DataBaseConnection\obj\Debug\ChitFundDataBaseOperations.dll
 E:\programming learning\dotnet learning\winforms programm\ChitApplication\DataBaseConnection\obj\Debug\ChitFundDataBaseOperations.pdb
+F:\Microsoft_Learning\ChitApplication\DataBaseConnection\bin\Debug\ChitFundDataBaseOperations.dll
+F:\Microsoft_Learning\ChitApplication\DataBaseConnection\bin\Debug\ChitFundDataBaseOperations.pdb
+F:\Microsoft_Learning\ChitApplication\DataBaseConnection\bin\Debug\RegistrationInputs.dll
+F:\Microsoft_Learning\ChitApplication\DataBaseConnection\bin\Debug\RegistrationInputs.pdb
+F:\Microsoft_Learning\ChitApplication\DataBaseConnection\obj\Debug\ChitFundDataBaseOperations.csprojResolveAssemblyReference.cache
+F:\Microsoft_Learning\ChitApplication\DataBaseConnection\obj\Debug\ChitFundDataBaseOperations.csproj.CoreCompileInputs.cache
+F:\Microsoft_Learning\ChitApplication\DataBaseConnection\obj\Debug\ChitFundDataBaseOperations.dll
+F:\Microsoft_Learning\ChitApplication\DataBaseConnection\obj\Debug\ChitFundDataBaseOperations.pdb

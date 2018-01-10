@@ -13,3 +13,19 @@ E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitAp
 E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.exe
 E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.pdb
 E:\programming learning\dotnet learning\winforms programm\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.PaymentDetails.resources
+F:\Microsoft_Learning\ChitApplication\ChitApplication\bin\Debug\ChitFundRegistration.exe.config
+F:\Microsoft_Learning\ChitApplication\ChitApplication\bin\Debug\ChitFundRegistration.exe
+F:\Microsoft_Learning\ChitApplication\ChitApplication\bin\Debug\ChitFundRegistration.pdb
+F:\Microsoft_Learning\ChitApplication\ChitApplication\bin\Debug\ChitFundDataBaseOperations.dll
+F:\Microsoft_Learning\ChitApplication\ChitApplication\bin\Debug\RegistrationInputs.dll
+F:\Microsoft_Learning\ChitApplication\ChitApplication\bin\Debug\ChitFundDataBaseOperations.pdb
+F:\Microsoft_Learning\ChitApplication\ChitApplication\bin\Debug\RegistrationInputs.pdb
+F:\Microsoft_Learning\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.csprojResolveAssemblyReference.cache
+F:\Microsoft_Learning\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.PaymentDetails.resources
+F:\Microsoft_Learning\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.Properties.Resources.resources
+F:\Microsoft_Learning\ChitApplication\ChitApplication\obj\Debug\ChitApplication.UserRegistration.resources
+F:\Microsoft_Learning\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.csproj.GenerateResource.Cache
+F:\Microsoft_Learning\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.csproj.CoreCompileInputs.cache
+F:\Microsoft_Learning\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.exe
+F:\Microsoft_Learning\ChitApplication\ChitApplication\obj\Debug\ChitFundRegistration.pdb
+F:\Microsoft_Learning\ChitApplication\ChitApplication\obj\Debug\ChitApplication.LoginForm.resources

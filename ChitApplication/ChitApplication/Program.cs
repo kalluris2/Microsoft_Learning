@@ -16,7 +16,8 @@ namespace ChitApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UserRegistration());
+            //Application.Run(new UserRegistration());
+            Application.Run(new LoginForm());
         }
     }
 }

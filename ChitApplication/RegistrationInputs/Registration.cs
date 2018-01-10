@@ -9,6 +9,7 @@
         public string PaidAmount { get; set; }
 
         public string DatePaid { get; set; }
+
         public string ChittiId { get; set; }
     }
 }

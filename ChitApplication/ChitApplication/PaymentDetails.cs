@@ -194,5 +194,10 @@ namespace ChitFundRegistration
             AmountReceivedByTextBox.Clear();
 
         }
+
+        private void chitIdComboBox_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
